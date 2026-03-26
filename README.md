@@ -42,4 +42,4 @@ I’ve implemented several "Day 2" engineering patterns that go beyond the basic
 The orchestrator provides structured, real-time feedback during execution, as seen in the terminal output below:
 <img width="713" height="175" alt="Screenshot 2026-03-26 at 20 07 38" src="https://github.com/user-attachments/assets/23fd9783-e1df-4b35-bcbd-a0bcd8aed2e7" />
 
-![Terminal Execution Output](./assets/terminal_output.png)
+![Terminal Execution Output](./assets/<img width="713" height="175" alt="Screenshot 2026-03-26 at 20 07 38" src="https://github.com/user-attachments/assets/23fd9783-e1df-4b35-bcbd-a0bcd8aed2e7" />)
