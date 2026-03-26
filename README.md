@@ -37,3 +37,8 @@ I’ve implemented several "Day 2" engineering patterns that go beyond the basic
 ├── orders_updated.json     # Final Output
 ├── prompts.txt             # AI Interaction Log
 └── .env                    # Secrets (Excluded via .gitignore)
+
+## 📊 Sample Output (Observability in Action)
+The orchestrator provides structured, real-time feedback during execution, as seen in the terminal output below:
+
+![Terminal Execution Output](./assets/terminal_output.png)
