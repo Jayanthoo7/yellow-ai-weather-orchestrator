@@ -26,6 +26,12 @@ I’ve implemented several "Day 2" engineering patterns that go beyond the basic
 
 ---
 
+## 📊 Sample Output (Observability in Action)
+The orchestrator provides structured, real-time feedback during execution, as seen in the terminal output below:
+<img width="713" height="175" alt="terminal_output" src="https://github.com/user-attachments/assets/1fc4f8f5-6973-47f6-ab84-cd4de77e36a2" />
+
+
+
 ## 📂 Project Structure
 ```text
 .
@@ -39,9 +45,6 @@ I’ve implemented several "Day 2" engineering patterns that go beyond the basic
 └── .env                    # Secrets (Excluded via .gitignore)
 
 
-## 📊 Sample Output (Observability in Action)
-The orchestrator provides structured, real-time feedback during execution, as seen in the terminal output below:
-<img width="713" height="175" alt="terminal_output" src="https://github.com/user-attachments/assets/0bd85fd7-c7ea-4262-b253-d67706a1cf62" />
 
 
 
