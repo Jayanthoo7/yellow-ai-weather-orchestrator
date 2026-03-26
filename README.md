@@ -41,6 +41,7 @@ I’ve implemented several "Day 2" engineering patterns that go beyond the basic
 
 ## 📊 Sample Output (Observability in Action)
 The orchestrator provides structured, real-time feedback during execution, as seen in the terminal output below:
+<img width="713" height="175" alt="terminal_output" src="https://github.com/user-attachments/assets/0bd85fd7-c7ea-4262-b253-d67706a1cf62" />
 
-![Terminal Execution Output](./assets/terminal_output.png)
+
 
