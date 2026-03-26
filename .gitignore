@@ -1,0 +1,12 @@
+# Security: Never upload API keys
+.env
+
+# Dependencies: No need to upload thousands of library files
+node_modules/
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore the updated output file so the repo stays clean
+orders_updated.json

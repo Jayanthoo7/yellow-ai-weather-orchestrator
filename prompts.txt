@@ -1,0 +1,16 @@
+AI Log - Yellow.ai Assignment 2
+
+1. Parallel Fetching & Advanced Rate Limiting
+Prompt Used: "I need to process a JSON array of orders in Node.js using ES modules. To ensure I don't hit API rate limits, write a batch processing logic (Batch Size: 2) that iterates through the orders. Inside each batch, use `Promise.all` to fetch weather data from the OpenWeatherMap API concurrently for high performance, but wait for each batch to finish before starting the next one."
+
+2. Resilience & Edge Case Handling (InvalidCity123)
+Prompt Used: "Update my weather fetching function to be highly resilient. Use a `try...catch` block so that if the API returns a 404 error (specifically for the 'InvalidCity123' test case), the script logs a descriptive error message but does not crash. It must continue processing all other valid cities in the queue."
+
+3. Structural Observability (Enterprise Logging)
+Prompt Used: "Instead of simple console logs, create a structured logging utility function. It should output a timestamp, a severity level (INFO, WARN, ERROR, SYSTEM), and the specific Order ID. The format should look like: `YYYY-MM-DD HH:MM:SS | SEVERITY | ID: XXXX | Message`. This is for an ITSM environment where tracking is critical."
+
+4. Agentic AI Action (Gemini LLM Integration)
+Prompt Used: "Write an async function that calls the Google Gemini 2.5 Flash REST API using the native fetch API. The prompt should instruct the AI to act as an Enterprise IT Support agent. If an order is delayed due to Rain, Snow, or Extreme weather, generate a professional, one-sentence apology to the employee. Include a fallback string in a catch block in case the LLM API is unavailable."
+
+5. Environment Validation (Fail-Fast Security)
+Prompt Used: "Write a validation function that runs at the start of the script. It should check if `WEATHER_API_KEY` and `GEMINI_API_KEY` exist in the `process.env`. If they are missing, it should log a 'FATAL' error explaining how to fix the `.env` file and then terminate the process immediately using `process.exit(1)`."
