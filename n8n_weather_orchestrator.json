@@ -1,0 +1,83 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "98f34d0a-33e2-47d2-9c8b-04fa2a4e297d",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "command": "cd /Users/kjayanthreddy/yellow-ai-assignment/yellow-ai-assignment && node index.js\n"
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "a4cb783a-4bcb-45f6-8cf4-9bbf28f86897",
+      "name": "Execute Command"
+    },
+    {
+      "parameters": {
+        "command": "cat /Users/kjayanthreddy/yellow-ai-assignment/yellow-ai-assignment/orders_updated.json"
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "c97cf746-79ce-404b-a327-8d60cc8ff2c5",
+      "name": "Execute Command1"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Execute Command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute Command": {
+      "main": [
+        [
+          {
+            "node": "Execute Command1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute Command1": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "26e0f36a-857b-4c8e-8843-7836243a5f99",
+  "meta": {
+    "instanceId": "c1cd414262b204ce51fb8a258f1092deb3ebb61e176a6da434c13cffaf774804"
+  },
+  "id": "U9AbArnYd22XER1F",
+  "tags": []
+}
